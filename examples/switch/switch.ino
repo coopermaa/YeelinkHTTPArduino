@@ -2,11 +2,11 @@
 #include <YeelinkHTTPArduino.h>
 
 // Change this for your API key (from your account dashboard)
-String APIKey = "5d8dde4619afe1ad1643e4656800602f";
+String APIKey = "YOUR_API_KEY_HERE";
 
 // Change these for your device and sensor
-String device_id = "4464";
-String sensor_id = "6481";
+String device_id = "1234";
+String sensor_id = "5678";
 Sensor sensor(APIKey, device_id, sensor_id);
 
 long lastRequestTime = 0;
