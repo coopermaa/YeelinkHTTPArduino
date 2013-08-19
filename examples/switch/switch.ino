@@ -11,7 +11,7 @@ Sensor sensor(APIKey, device_id, sensor_id);
 
 long lastRequestTime = 0;
 const int INTERVAL = 2000; // update interval, in miliseconds
-const int led = 9;
+const int led = 13;
 
 void setup() {
   Serial.begin(57600);
